@@ -11,13 +11,3 @@
 3. **Integration with Future**: <br/>Callable is often used in conjunction with Future, which represents the result of an asynchronous computation.<br/>By submitting a Callable task to an ExecutorService, you obtain a Future object, allowing you to retrieve the result or check the task's status.<br/><br/>
 4. **Asynchronous Operations**: <br/>Callable is particularly useful for managing long-running or I/O-bound operations without blocking the main thread.<br/>By offloading these tasks to separate threads, you can improve the responsiveness of your application.<br/><br/>
    In summary, Callable is preferred over Runnable when you need to retrieve a result from a task, handle exceptions, and manage asynchronous operations effectively. It provides a more flexible and robust approach to concurrency in Java.
-
-#### Key Methods of Future Interface
-
-| Method               | Description                                                     |
-| -------------------- | --------------------------------------------------------------- |
-| `get()`              | Waits and returns the result                                    |
-| `get(timeout, unit)` | Waits for specified time; throws `TimeoutException` if not done |
-| `isDone()`           | Checks if the task is completed                                 |
-| `isCancelled()`      | Checks if task was cancelled                                    |
-| `cancel(true/false)` | Tries to cancel execution                                       |

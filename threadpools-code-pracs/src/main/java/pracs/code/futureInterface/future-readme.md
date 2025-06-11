@@ -27,3 +27,14 @@ The Future interface can report exceptions that occurred during the execution of
 **Task Status:**
 You can check the status of a task (e.g., whether it's done or canceled).<br/><br/>
 In summary, the Future interface is a powerful tool for managing asynchronous tasks in Java, improving performance and responsiveness by allowing tasks to run in the background while the main thread continues to execute other operations.
+
+
+#### Key Methods of Future Interface
+
+| Method               | Description                                                     |
+| -------------------- | --------------------------------------------------------------- |
+| `get()`              | Waits and returns the result                                    |
+| `get(timeout, unit)` | Waits for specified time; throws `TimeoutException` if not done |
+| `isDone()`           | Checks if the task is completed                                 |
+| `isCancelled()`      | Checks if task was cancelled                                    |
+| `cancel(true/false)` | Tries to cancel execution                                       |
