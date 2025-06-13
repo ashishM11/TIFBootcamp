@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/multithreading-code-pracs/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/multithreading-code-pracs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/threadpools-code-pracs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/threadpools-code-pracs/src/main/resources" charset="UTF-8" />
   </component>
 </project>
